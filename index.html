@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ecommerce.css">
+    <title>Ecommersce Web App</title>
+</head>
+<body>
+    <!-- Creating The Nav BAr Here -->
+
+    <header>
+            <h1>Product Listing Page</h1>
+            <div class="filter">
+                <select name="category" id="categoryFilter">
+                    <option value="">Select Category</option>
+                    <!-- Categories will be Pushed Dynamically -->
+                </select>
+                <input type="text" id="searchInput" placeholder="Search Products">
+                <select name="" id="sortOrder">
+                    <option value="ascend">Price : low to HIGH</option>
+                    <option value="descend">Price : HIGH to low</option>
+                </select>
+            </div>
+    </header>
+     <!-- Creating The Root Elements Where All Childs Elements Will be Appended -->
+    <main id="root"></main>
+
+</body>
+<script src="ecommerce.js"></script>
+</html>
